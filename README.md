@@ -22,6 +22,8 @@ Connecting router, switch, pc and other components using fast ethernet cable. fo
 
 ![](image/image1.png)
 
+Demonstration video link
+
 # Setup Virtual local network
 
 Creating VLAN for each department enable dividing single physical switch port to separate group of logical port to isolate the network it enhance security and speed of packet travel.
