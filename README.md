@@ -75,7 +75,7 @@ Creating VLAN for each department enable dividing single physical switch port to
 # Screenshot
 ![](image/switchconf.png)
 
-Demonstration video link https://youtu.be/R4eTRr4aPu4?si=A51NGjFCS70GV4TA&t=10m
+Demonstration video link https://youtu.be/R4eTRr4aPu4?si=A51NGjFCS70GV4TA&t=10m27s
 
 
 
@@ -153,7 +153,7 @@ dhcp conf 3rd subnet
 
 # Screenshot
 ![](image/dhcp.png)
-Demonstration video link https://youtu.be/R4eTRr4aPu4?si=A51NGjFCS70GV4TA?t=977
+Demonstration video link https://youtu.be/R4eTRr4aPu4?si=A51NGjFCS70GV4TA&t=16m17s
 
 # Wireless connectivity using access point device.
 
@@ -164,7 +164,7 @@ To provide Wi-Fi for smartphones, laptops, and tablets in your Cisco Packet Trac
 ![](image/wifi1.png)
 ![](image/wifi2.png)
 
-Demonstration video link https://youtu.be/R4eTRr4aPu4?si=A51NGjFCS70GV4TA?t=1695
+Demonstration video link https://youtu.be/R4eTRr4aPu4?si=A51NGjFCS70GV4TA&t=28m15s
 
 
 
