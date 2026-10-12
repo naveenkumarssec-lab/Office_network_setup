@@ -20,14 +20,14 @@ Picking components router, pc, switch, printers and so on bottom of the screen i
 Connecting router, switch, pc and other components using fast ethernet cable. for each department consist admin, finance, customer service.
 # Screenshot
 
-![]()
+![](image/image1.png)
 
 # Setup Virtual local network
 
 Creating VLAN for each department enable dividing single physical switch port to separate group of logical port to isolate the network it enhance security and speed of packet travel.
 
 # Screenshot
-
+![](image/switchconf.png)
 
 
 
@@ -68,6 +68,10 @@ Here make communication amoung the different VLANs 10, 20 30.
 
 - Above comment line make a traffic tag ID for VLAN 20 (Finance department) to communicate through gig0/0 ethernet and assigning IP address for this network.
 
+# Screenshot
+
+![](image/routerconf.png)
+
 #DHCP configuration for assign IP automatically
 
 config> service dhcp;
@@ -101,7 +105,7 @@ dhcp conf 3rd subnet
 - Above lines denotes DHCP configuration for assigning ip for every device in each network automatically.
 
 # Screenshot
-
+![](image/dhcp.png)
 
 # Wireless connectivity using access point device.
 
@@ -109,7 +113,8 @@ To provide Wi-Fi for smartphones, laptops, and tablets in your Cisco Packet Trac
 
 # Screenshot
 
-
+![](image/wifi1.png)
+![](image/wifi2.png)
 
 
 
