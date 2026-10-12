@@ -75,7 +75,7 @@ Creating VLAN for each department enable dividing single physical switch port to
 # Screenshot
 ![](image/switchconf.png)
 
-Demonstration video link https://youtu.be/R4eTRr4aPu4?si=A51NGjFCS70GV4TA?t=627
+Demonstration video link https://youtu.be/R4eTRr4aPu4?si=A51NGjFCS70GV4TA&t=10m
 
 
 
