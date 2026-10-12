@@ -18,11 +18,55 @@ Assume the ISP gave out a base network of 192.168.1.0 you as the young network e
 Picking components router, pc, switch, printers and so on bottom of the screen in the cisco packet tracer
 
 Connecting router, switch, pc and other components using fast ethernet cable. for each department consist admin, finance, customer service.
+
+# Subnetting Calculation
+Base network: 192.168.1.0
+
+No. of subnets = 3
+
+No. of subnts = 2^n
+
+2^n = 3
+
+n= 2
+
+class c 255.255.255.0 -> 11111111.11111111.11111111.00000000
+
+After borrowing 2 bits can make 4 subnets
+
+255.255.255.192 -> 11111111.11111111.11111111.11000000
+
+Block size 64 which mean can connet 64 device each subnet(4).
+
+First Subnet
+
+Network IP     : 192.168.1.0
+Host Range    : 192.168.1.1 - 192.168.1.62
+Broadcast IP  : 192.168.1.63
+
+Second Subnet
+
+Network IP     : 192.168.1.64
+Host Range    : 192.168.1.65 - 192.168.1.126
+Broadcast IP  : 192.168.1.127
+
+Third Subnet
+
+Network IP     : 192.168.1.128
+Host Range    : 192.168.1.129 - 192.168.1.190
+Broadcast IP  : 192.168.1.191
+
+Fourth Subnet 
+
+Network IP     : 192.168.1.192
+Host Range    : 192.168.1.123 - 192.168.1.253
+Broadcast IP  : 192.168.1.254
+
 # Screenshot
 
 ![](image/image1.png)
 
-Demonstration video link
+Demonstration video link https://youtu.be/R4eTRr4aPu4?si=A51NGjFCS70GV4TA
 
 # Setup Virtual local network
 
@@ -31,6 +75,7 @@ Creating VLAN for each department enable dividing single physical switch port to
 # Screenshot
 ![](image/switchconf.png)
 
+Demonstration video link https://youtu.be/R4eTRr4aPu4?si=A51NGjFCS70GV4TA?t=627
 
 
 
@@ -108,6 +153,7 @@ dhcp conf 3rd subnet
 
 # Screenshot
 ![](image/dhcp.png)
+Demonstration video link https://youtu.be/R4eTRr4aPu4?si=A51NGjFCS70GV4TA?t=977
 
 # Wireless connectivity using access point device.
 
@@ -117,6 +163,8 @@ To provide Wi-Fi for smartphones, laptops, and tablets in your Cisco Packet Trac
 
 ![](image/wifi1.png)
 ![](image/wifi2.png)
+
+Demonstration video link https://youtu.be/R4eTRr4aPu4?si=A51NGjFCS70GV4TA?t=1695
 
 
 
